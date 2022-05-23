@@ -15,11 +15,8 @@ interface InterventionDAO {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertInterventions(intervention:Interventions)
 
-    @Delete
-    suspend fun deleteIntervention(note:Interventions)
-
     @Query("DELETE FROM interventions WHERE number =:id")
-    suspend fun deleteSpecificNote(id:Int)
+    suspend fun deleteIntervention(id:Int)
 
     @Update
     suspend fun updateIntervention(intervention: Interventions)

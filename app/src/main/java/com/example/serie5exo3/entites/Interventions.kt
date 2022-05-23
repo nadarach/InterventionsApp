@@ -11,6 +11,7 @@ class Interventions: Serializable {
 
     @ColumnInfo(name = "number")
     var numero:Int? = null
+//todo turn into primary key
 
     @ColumnInfo(name = "date")
     var date:String? = null
