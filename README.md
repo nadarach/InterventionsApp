@@ -1,5 +1,5 @@
 # Serie5EXO3
-TDM Série 5 EXO 3
+TDM (Développement mobile) Série 5 EXO 3
 
 Objectif : Utilisation des bases de données avec Room
 
